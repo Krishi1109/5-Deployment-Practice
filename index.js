@@ -4,6 +4,9 @@ const app = express()
 
 const port = 9000 
 
+// app.use("/", (req,res) => {
+//     res.json({Message : "Helloo World"})
+// })
 
 __dirname = path.resolve();
 // if (process.env.NODE_ENV == "production") {
